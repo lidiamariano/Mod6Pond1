@@ -1,0 +1,126 @@
+[1.793s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.793s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72dd96344400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72dd96449030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72dd96449030>>)
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.737s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lidia/Mod6Pond1'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['ignore', 'ignore_ament_install']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ignore'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ignore_ament_install'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['colcon_pkg']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'colcon_pkg'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['colcon_meta']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'colcon_meta'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extensions ['ros']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/ola_mundo) by extension 'ros'
+[3.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ola_mundo' with type 'ros.ament_python' and name 'ola_mundo'
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_target' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_clean_first' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'cmake_force_configure' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'ament_cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'ola_mundo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.189s] DEBUG:colcon.colcon_core.verb:Building package 'ola_mundo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lidia/Mod6Pond1/build/ola_mundo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lidia/Mod6Pond1/install/ola_mundo', 'merge_install': False, 'path': '/home/lidia/Mod6Pond1/src/ola_mundo', 'symlink_install': False, 'test_result_base': None}
+[4.189s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lidia/Mod6Pond1/src/ola_mundo' with build type 'ament_python'
+[4.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('ola_mundo', 'ament_prefix_path')
+[4.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.ps1'
+[4.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.dsv'
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/ament_prefix_path.sh'
+[4.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.621s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lidia/Mod6Pond1/src/ola_mundo'
+[4.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/Mod6Pond1/src/ola_mundo': PYTHONPATH=/home/lidia/Mod6Pond1/build/ola_mundo/prefix_override:/home/lidia/Mod6Pond1/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/Mod6Pond1/build/ola_mundo/build install --record /home/lidia/Mod6Pond1/build/ola_mundo/install.log --single-version-externally-managed install_data
+[7.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/Mod6Pond1/src/ola_mundo' returned '0': PYTHONPATH=/home/lidia/Mod6Pond1/build/ola_mundo/prefix_override:/home/lidia/Mod6Pond1/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/Mod6Pond1/build/ola_mundo/build install --record /home/lidia/Mod6Pond1/build/ola_mundo/install.log --single-version-externally-managed install_data
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo' for CMake module files
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo' for CMake config files
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo/lib'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo/bin'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo/lib/pkgconfig/ola_mundo.pc'
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo/lib/python3.10/site-packages'
+[7.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('ola_mundo', 'pythonpath')
+[7.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/pythonpath.ps1'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/pythonpath.dsv'
+[7.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/hook/pythonpath.sh'
+[7.212s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/Mod6Pond1/install/ola_mundo/bin'
+[7.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ola_mundo)
+[7.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/package.ps1'
+[7.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/package.dsv'
+[7.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/package.sh'
+[7.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/package.bash'
+[7.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/Mod6Pond1/install/ola_mundo/share/ola_mundo/package.zsh'
+[7.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lidia/Mod6Pond1/install/ola_mundo/share/colcon-core/packages/ola_mundo)
+[7.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.283s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.354s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.377s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/Mod6Pond1/install/local_setup.ps1'
+[7.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lidia/Mod6Pond1/install/_local_setup_util_ps1.py'
+[7.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/Mod6Pond1/install/setup.ps1'
+[7.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/Mod6Pond1/install/local_setup.sh'
+[7.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lidia/Mod6Pond1/install/_local_setup_util_sh.py'
+[7.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/Mod6Pond1/install/setup.sh'
+[7.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/Mod6Pond1/install/local_setup.bash'
+[7.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/Mod6Pond1/install/setup.bash'
+[7.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/Mod6Pond1/install/local_setup.zsh'
+[7.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/Mod6Pond1/install/setup.zsh'

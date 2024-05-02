@@ -1,0 +1,24 @@
+[2.503s] Invoking command in '/home/lidia/pond1/src/ola_mundo': AMENT_PREFIX_PATH=/home/lidia/pond1/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lidia/pond1/install/turtlesim LD_LIBRARY_PATH=/home/lidia/pond1/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lidia/pond1/build/ola_mundo/prefix_override:/home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages:/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/pond1/build/ola_mundo/build install --record /home/lidia/pond1/build/ola_mundo/install.log --single-version-externally-managed install_data
+[2.651s] running egg_info
+[2.651s] writing ../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[2.663s] writing dependency_links to ../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[2.664s] writing entry points to ../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[2.665s] writing requirements to ../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[2.666s] writing top-level names to ../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[2.671s] reading manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[2.683s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[2.683s] running build
+[2.684s] running build_py
+[2.698s] copying ola_mundo/teste.py -> /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo
+[2.698s] running install
+[2.699s] running install_lib
+[2.711s] copying /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo/teste.py -> /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[2.723s] byte-compiling /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/teste.py to teste.cpython-310.pyc
+[2.724s] running install_data
+[2.741s] running install_egg_info
+[2.744s] removing '/home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info' (and everything under it)
+[2.745s] Copying ../../build/ola_mundo/ola_mundo.egg-info to /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[2.758s] running install_scripts
+[2.781s] Installing ola script to /home/lidia/pond1/install/ola_mundo/lib/ola_mundo
+[2.793s] writing list of installed files to '/home/lidia/pond1/build/ola_mundo/install.log'
+[2.813s] Invoked command in '/home/lidia/pond1/src/ola_mundo' returned '0': AMENT_PREFIX_PATH=/home/lidia/pond1/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lidia/pond1/install/turtlesim LD_LIBRARY_PATH=/home/lidia/pond1/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lidia/pond1/build/ola_mundo/prefix_override:/home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages:/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/pond1/build/ola_mundo/build install --record /home/lidia/pond1/build/ola_mundo/install.log --single-version-externally-managed install_data

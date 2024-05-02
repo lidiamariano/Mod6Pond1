@@ -1,0 +1,6 @@
+Invoking command in '/home/lidia/pond1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lidia/pond1/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/lidia/pond1/install/turtlesim
+Invoked command in '/home/lidia/pond1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lidia/pond1/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/lidia/pond1/install/turtlesim
+Invoking command in '/home/lidia/pond1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lidia/pond1/build/turtlesim -- -j8 -l8
+Invoked command in '/home/lidia/pond1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lidia/pond1/build/turtlesim -- -j8 -l8
+Invoking command in '/home/lidia/pond1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lidia/pond1/build/turtlesim
+Invoked command in '/home/lidia/pond1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lidia/pond1/build/turtlesim

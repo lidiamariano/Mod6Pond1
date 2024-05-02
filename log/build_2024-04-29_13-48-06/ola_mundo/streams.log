@@ -1,0 +1,36 @@
+[1.801s] Invoking command in '/home/lidia/pond1/src/ola_mundo': PYTHONPATH=/home/lidia/pond1/build/ola_mundo/prefix_override:/home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/pond1/build/ola_mundo/build install --record /home/lidia/pond1/build/ola_mundo/install.log --single-version-externally-managed install_data
+[1.980s] running egg_info
+[1.980s] creating ../../build/ola_mundo/ola_mundo.egg-info
+[1.980s] writing ../../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[1.980s] writing dependency_links to ../../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[1.980s] writing entry points to ../../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[1.980s] writing requirements to ../../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[1.980s] writing top-level names to ../../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[1.980s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.982s] reading manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.982s] writing manifest file '../../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[1.983s] running build
+[1.983s] running build_py
+[1.983s] creating /home/lidia/pond1/build/ola_mundo/build
+[1.983s] creating /home/lidia/pond1/build/ola_mundo/build/lib
+[1.983s] creating /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo
+[1.983s] copying ola_mundo/teste.py -> /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo
+[1.983s] copying ola_mundo/__init__.py -> /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo
+[1.983s] running install
+[1.983s] running install_lib
+[1.984s] creating /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.984s] copying /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo/teste.py -> /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.984s] copying /home/lidia/pond1/build/ola_mundo/build/lib/ola_mundo/__init__.py -> /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+[1.984s] byte-compiling /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/teste.py to teste.cpython-310.pyc
+[1.985s] byte-compiling /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/__init__.py to __init__.cpython-310.pyc
+[1.985s] running install_data
+[1.985s] creating /home/lidia/pond1/install/ola_mundo/share/ament_index
+[1.985s] creating /home/lidia/pond1/install/ola_mundo/share/ament_index/resource_index
+[1.985s] creating /home/lidia/pond1/install/ola_mundo/share/ament_index/resource_index/packages
+[1.985s] copying resource/ola_mundo -> /home/lidia/pond1/install/ola_mundo/share/ament_index/resource_index/packages
+[1.985s] copying package.xml -> /home/lidia/pond1/install/ola_mundo/share/ola_mundo
+[1.985s] running install_egg_info
+[1.987s] Copying ../../build/ola_mundo/ola_mundo.egg-info to /home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[1.987s] running install_scripts
+[2.005s] writing list of installed files to '/home/lidia/pond1/build/ola_mundo/install.log'
+[2.026s] Invoked command in '/home/lidia/pond1/src/ola_mundo' returned '0': PYTHONPATH=/home/lidia/pond1/build/ola_mundo/prefix_override:/home/lidia/pond1/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ola_mundo build --build-base /home/lidia/pond1/build/ola_mundo/build install --record /home/lidia/pond1/build/ola_mundo/install.log --single-version-externally-managed install_data

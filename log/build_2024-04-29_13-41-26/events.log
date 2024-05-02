@@ -1,0 +1,451 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000486] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.031051] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.032167] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.033314] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidia/pond1/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/lidia/pond1/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'lidia'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lidia/pond1/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lidia'), ('OLDPWD', '/home/lidia'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1137'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidia/pond1/install'), ('LOGNAME', 'lidia'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/lidia/go/bin'), ('SESSION_MANAGER', 'local/lidia-Latitude-3420:@/tmp/.ICE-unix/1102,unix/lidia-Latitude-3420:/tmp/.ICE-unix/1102'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59d9d652_55b4_4fdd_b1f0_21738b520181'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QLFZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidia/pond1/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GOPATH', '/home/lidia/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidia/pond1/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidia/pond1/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.077800] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.087027] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.091002] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.099708] (-) TimerEvent: {}
+[0.100025] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.101690] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.103678] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.103987] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.104304] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.106659] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.106874] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.120715] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.121899] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.135518] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.137428] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.149267] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.153002] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.153294] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.156231] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.157733] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.165088] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.183817] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target mimic\n'}
+[0.184070] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[0.184450] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[0.187552] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[0.199821] (-) TimerEvent: {}
+[0.207192] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim__py\n'}
+[0.218436] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.258211] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim_node\n'}
+[0.258547] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_generator_py\n'}
+[0.268951] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.269197] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.269312] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.283042] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.286594] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.299950] (-) TimerEvent: {}
+[0.310618] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.364110] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.364866] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.365199] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.377013] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.379550] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.380157] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.400237] (-) TimerEvent: {}
+[0.404446] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.500456] (-) TimerEvent: {}
+[0.600919] (-) TimerEvent: {}
+[0.701371] (-) TimerEvent: {}
+[0.801884] (-) TimerEvent: {}
+[0.902333] (-) TimerEvent: {}
+[1.002760] (-) TimerEvent: {}
+[1.103321] (-) TimerEvent: {}
+[1.203849] (-) TimerEvent: {}
+[1.304373] (-) TimerEvent: {}
+[1.404912] (-) TimerEvent: {}
+[1.505345] (-) TimerEvent: {}
+[1.605897] (-) TimerEvent: {}
+[1.706473] (-) TimerEvent: {}
+[1.807017] (-) TimerEvent: {}
+[1.907571] (-) TimerEvent: {}
+[2.008136] (-) TimerEvent: {}
+[2.108645] (-) TimerEvent: {}
+[2.209059] (-) TimerEvent: {}
+[2.309595] (-) TimerEvent: {}
+[2.410164] (-) TimerEvent: {}
+[2.510679] (-) TimerEvent: {}
+[2.611219] (-) TimerEvent: {}
+[2.711798] (-) TimerEvent: {}
+[2.812319] (-) TimerEvent: {}
+[2.912861] (-) TimerEvent: {}
+[3.013296] (-) TimerEvent: {}
+[3.113829] (-) TimerEvent: {}
+[3.214450] (-) TimerEvent: {}
+[3.314986] (-) TimerEvent: {}
+[3.415461] (-) TimerEvent: {}
+[3.515797] (-) TimerEvent: {}
+[3.616295] (-) TimerEvent: {}
+[3.716807] (-) TimerEvent: {}
+[3.817266] (-) TimerEvent: {}
+[3.917611] (-) TimerEvent: {}
+[4.018052] (-) TimerEvent: {}
+[4.118518] (-) TimerEvent: {}
+[4.219079] (-) TimerEvent: {}
+[4.319668] (-) TimerEvent: {}
+[4.420242] (-) TimerEvent: {}
+[4.520726] (-) TimerEvent: {}
+[4.621173] (-) TimerEvent: {}
+[4.721498] (-) TimerEvent: {}
+[4.821856] (-) TimerEvent: {}
+[4.922342] (-) TimerEvent: {}
+[5.022851] (-) TimerEvent: {}
+[5.123466] (-) TimerEvent: {}
+[5.223974] (-) TimerEvent: {}
+[5.324698] (-) TimerEvent: {}
+[5.425546] (-) TimerEvent: {}
+[5.526081] (-) TimerEvent: {}
+[5.626552] (-) TimerEvent: {}
+[5.727010] (-) TimerEvent: {}
+[5.827618] (-) TimerEvent: {}
+[5.928168] (-) TimerEvent: {}
+[6.028699] (-) TimerEvent: {}
+[6.128986] (-) TimerEvent: {}
+[6.229470] (-) TimerEvent: {}
+[6.329763] (-) TimerEvent: {}
+[6.430076] (-) TimerEvent: {}
+[6.530481] (-) TimerEvent: {}
+[6.630952] (-) TimerEvent: {}
+[6.731503] (-) TimerEvent: {}
+[6.832036] (-) TimerEvent: {}
+[6.932629] (-) TimerEvent: {}
+[7.033033] (-) TimerEvent: {}
+[7.133557] (-) TimerEvent: {}
+[7.234111] (-) TimerEvent: {}
+[7.334561] (-) TimerEvent: {}
+[7.435104] (-) TimerEvent: {}
+[7.535593] (-) TimerEvent: {}
+[7.636132] (-) TimerEvent: {}
+[7.736699] (-) TimerEvent: {}
+[7.837130] (-) TimerEvent: {}
+[7.937496] (-) TimerEvent: {}
+[7.981689] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[8.037640] (-) TimerEvent: {}
+[8.138270] (-) TimerEvent: {}
+[8.196598] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtle_teleop_key\n'}
+[8.236372] (turtlesim) CommandEnded: {'returncode': 0}
+[8.238354] (-) TimerEvent: {}
+[8.338791] (-) TimerEvent: {}
+[8.439109] (-) TimerEvent: {}
+[8.507810] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[8.520007] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lidia/pond1/build/turtlesim'], 'cwd': '/home/lidia/pond1/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'lidia'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lidia/pond1/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lidia'), ('OLDPWD', '/home/lidia'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1137'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidia/pond1/install'), ('LOGNAME', 'lidia'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/lidia/go/bin'), ('SESSION_MANAGER', 'local/lidia-Latitude-3420:@/tmp/.ICE-unix/1102,unix/lidia-Latitude-3420:/tmp/.ICE-unix/1102'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59d9d652_55b4_4fdd_b1f0_21738b520181'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QLFZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidia/pond1/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GOPATH', '/home/lidia/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidia/pond1/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidia/pond1/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[8.531770] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.532155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[8.532400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.532662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.532868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[8.533106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[8.533332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.533555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[8.533745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[8.533866] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[8.533963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[8.534086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[8.534205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[8.534342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[8.534482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[8.534649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[8.534976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[8.535084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[8.535155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[8.535230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[8.535302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[8.535373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[8.535587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[8.535792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[8.535926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[8.536031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[8.536218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[8.536370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[8.536521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[8.536692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[8.536839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.536995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[8.537124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.537218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.537333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[8.537427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[8.537548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[8.537684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[8.537824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[8.537943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[8.538076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[8.538192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[8.538280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[8.538382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.538463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[8.538545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.538629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[8.538738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[8.538837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[8.538965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[8.539080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[8.539190] (-) TimerEvent: {}
+[8.539358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[8.539458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[8.539544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.539644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.539727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.539811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[8.539928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.540468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.540565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.540694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[8.540844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.540917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.541005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[8.541105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[8.541219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.541343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.541482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[8.541621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.541970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[8.542122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[8.542272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[8.542414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[8.542508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[8.542587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[8.542668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[8.542749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[8.542829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[8.542899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[8.542968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[8.543038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[8.543099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[8.543144] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[8.543193] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[8.543239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[8.543283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[8.543326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[8.543374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[8.543422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.543468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.543514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[8.543560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[8.543615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[8.543665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[8.543709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[8.543753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[8.543796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[8.543840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[8.543884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.543932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.543975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[8.544020] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[8.544068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[8.544113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[8.544162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.544218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.544262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.544306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[8.544483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.544623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.544670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[8.544714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.544801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.544850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.544903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.544964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.545018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[8.545071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.545125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.545178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.545230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.545284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[8.545339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[8.545390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[8.545439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[8.545488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[8.545538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[8.545589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[8.545643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[8.545690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[8.545737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[8.545787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.545835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.545883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[8.545935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[8.545984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[8.546033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[8.546081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.546130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.546177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.546224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[8.546271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[8.546318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[8.546370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[8.546418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[8.546463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[8.546509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[8.546555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.546602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[8.546649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.546696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[8.546748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.546794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[8.546839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[8.546884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.546929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[8.546974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.547019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[8.547063] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[8.547107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.547152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[8.547197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[8.547244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.547291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[8.547339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[8.547384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[8.547431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.547477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[8.547528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[8.547572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[8.547616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[8.547661] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[8.547706] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[8.547752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[8.547797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[8.547841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[8.547886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[8.547931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[8.547977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[8.548023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[8.548068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[8.548112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[8.548156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[8.548201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[8.548245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[8.548290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[8.548339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[8.548382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[8.548425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[8.548469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[8.548512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.548570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[8.548624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[8.548669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[8.548714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[8.548757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[8.548802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[8.548847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[8.548891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[8.548951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[8.549004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[8.549057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.549109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[8.549162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.549216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.549271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[8.549324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.569289] (turtlesim) StdoutLine: {'line': b"Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[8.569383] (turtlesim) StdoutLine: {'line': b"Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[8.569449] (turtlesim) StdoutLine: {'line': b"Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[8.569512] (turtlesim) StdoutLine: {'line': b"Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[8.573439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.573791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.573971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.574107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[8.574276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[8.574407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[8.574541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[8.574673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[8.574791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[8.574922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[8.575043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[8.575164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[8.575284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[8.575399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[8.575503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[8.575586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[8.575691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[8.575775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[8.575865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[8.575947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[8.576045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[8.576130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[8.576210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[8.576286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[8.576370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[8.576459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[8.576531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[8.576599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[8.576689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[8.576766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[8.576841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[8.576937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[8.578061] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lidia/pond1/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[8.578215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/draw_square\n'}
+[8.578420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/mimic\n'}
+[8.578550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images\n'}
+[8.578703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[8.578827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[8.578944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[8.579067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[8.579189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[8.579321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[8.579442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[8.579548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[8.579639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[8.579748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/launch\n'}
+[8.579858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[8.579963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[8.580079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[8.580185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[8.580278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[8.580395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[8.580512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[8.580611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[8.580755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[8.580881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[8.581012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[8.581127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lidia/pond1/install/turtlesim/share/turtlesim/package.dsv\n'}
+[8.581234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[8.581434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[8.581607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.581711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.581856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.581975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[8.582071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.582160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.582245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.582328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.582409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[8.582499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.582593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.582774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.582972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[8.583067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.583149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[8.583233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.583314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[8.583401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.583493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.583611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.583726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.583838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.583944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.584039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[8.584139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[8.584243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/package.xml\n'}
+[8.585352] (turtlesim) CommandEnded: {'returncode': 0}
+[8.639306] (-) TimerEvent: {}
+[8.739640] (-) TimerEvent: {}
+[8.839945] (-) TimerEvent: {}
+[8.871502] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[8.875743] (-) EventReactorShutdown: {}

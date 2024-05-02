@@ -1,0 +1,355 @@
+[0.035s] Invoking command in '/home/lidia/pond1/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lidia/pond1/build/turtlesim -- -j8 -l8
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[0.087s] [  1%] Built target turtlesim__cpp
+[0.091s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.100s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[0.120s] [ 21%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.122s] [ 31%] Built target turtlesim__rosidl_typesupport_c
+[0.135s] [ 41%] Built target turtlesim__rosidl_typesupport_cpp
+[0.137s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[0.156s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.165s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.183s] [ 75%] Built target mimic
+[0.184s] [ 75%] Built target draw_square
+[0.184s] [ 76%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[0.187s] [ 76%] Built target turtlesim
+[0.207s] [ 77%] Built target turtlesim__py
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[0.258s] [ 88%] Built target turtlesim_node
+[0.258s] [ 92%] Built target turtlesim__rosidl_generator_py
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.283s] [ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.286s] [ 96%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.310s] [ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.364s] running egg_info
+[0.364s] writing turtlesim.egg-info/PKG-INFO
+[0.365s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.377s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.379s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.380s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.404s] [ 98%] Built target ament_cmake_python_build_turtlesim_egg
+[7.981s] [100%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[8.197s] [100%] Built target turtle_teleop_key
+[8.236s] Invoked command in '/home/lidia/pond1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lidia/pond1/build/turtlesim -- -j8 -l8
+[8.520s] Invoking command in '/home/lidia/pond1/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lidia/pond1/build/turtlesim
+[8.532s] -- Install configuration: ""
+[8.532s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[8.532s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.532s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[8.533s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[8.534s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[8.535s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[8.536s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[8.537s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[8.538s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/library_path.sh
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[8.539s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.540s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[8.541s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[8.542s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.543s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.544s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[8.545s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[8.546s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[8.547s] -- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[8.547s] -- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[8.547s] -- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[8.547s] -- Installing: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[8.547s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[8.548s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[8.549s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.569s] Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[8.569s] Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[8.569s] Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[8.569s] Listing '/home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[8.573s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.573s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Color.idl
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Pose.idl
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill.idl
+[8.574s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Color.msg
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/msg/Pose.msg
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill.srv
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[8.575s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[8.576s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/turtlesim_node
+[8.577s] -- Installing: /home/lidia/pond1/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[8.578s] -- Set runtime path of "/home/lidia/pond1/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[8.578s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/draw_square
+[8.578s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/lib/turtlesim/mimic
+[8.578s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images
+[8.578s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/humble.png
+[8.578s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/dashing.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/eloquent.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/crystal.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/rolling.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/galactic.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/ardent.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/foxy.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/images/bouncy.png
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/launch
+[8.579s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/path.sh
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/environment/path.dsv
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.bash
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.sh
+[8.580s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.zsh
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/local_setup.dsv
+[8.581s] -- Installing: /home/lidia/pond1/install/turtlesim/share/turtlesim/package.dsv
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[8.581s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[8.582s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[8.583s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.584s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.584s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[8.584s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[8.584s] -- Up-to-date: /home/lidia/pond1/install/turtlesim/share/turtlesim/package.xml
+[8.585s] Invoked command in '/home/lidia/pond1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lidia/pond1/build/turtlesim
