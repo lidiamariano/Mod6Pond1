@@ -33,7 +33,7 @@ Em seguida execute:
 `ros2 pkg executables ola_mundo`
 Então, podemos finalmente rodar o arquivo com ROS:
 `ros2 run ola_mundo ola`
-### 5)Observe
+### 5) Observe
 Agora o scripts enviará comandos para a tartaruga que está rodando no turtlesim que foi aberto no outro terminal. A primeira tartaruga a aparecer irá construir um desenho e uma outra irá aparecer por um breve momento e depois é morta. Veja no vídeo como sua tartaruga deve estar se movendo: https://youtu.be/sqywAvYiSk8?si=0h0D9P26_bkptgxp
 
 
